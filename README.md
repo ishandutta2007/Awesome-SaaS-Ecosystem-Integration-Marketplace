@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace?style=social&color=white" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace?style=social&color=white" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace?style=social&color=white" alt="GitHub Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace" alt="Open Issues"></a>
   <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
@@ -66,7 +66,7 @@ Below is the structured overview of leading SaaS ecosystem and application marke
 Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs, and extensible workflow frameworks. Sorted in descending order by GitHub stargazers ⭐.
 
 ### 1. n8n
-[![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
 - **Repository:** [n8n-io/n8n](https://github.com/n8n-io/n8n) 📦
 - **Stack:** TypeScript, Node.js, Vue.js, SQLite/PostgreSQL, Docker 💻
 - **License:** Fair-code (Sustainable Use License) / Apache-2.0 community components 📜
@@ -74,7 +74,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** Self-hosted workflow automation with an extensive visual integration catalog and AI pipeline triggers 🤖.
 
 ### 2. Huginn
-[![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
 - **Repository:** [huginn/huginn](https://github.com/huginn/huginn) 📦
 - **Stack:** Ruby on Rails, MySQL/PostgreSQL, JavaScript 💻
 - **License:** MIT License 📜
@@ -82,7 +82,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** Developer-centric web scraping, scheduled data pipelines, and personal automation ecosystems 🕵️.
 
 ### 3. Activepieces
-[![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
 - **Repository:** [activepieces/activepieces](https://github.com/activepieces/activepieces) 📦
 - **Stack:** TypeScript, Node.js, Angular, PostgreSQL, Docker 💻
 - **License:** MIT License 📜
@@ -90,7 +90,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** SaaS product builders wanting to embed a clean, user-friendly integration store and workflow builder for their customers 🧩.
 
 ### 4. Node-RED
-[![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
 - **Repository:** [node-red/node-red](https://github.com/node-red/node-red) 📦
 - **Stack:** JavaScript, Node.js, HTML5 💻
 - **License:** Apache-2.0 📜
@@ -98,7 +98,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** Event-driven IoT, edge orchestration, and hardware-to-cloud API integrations 📡.
 
 ### 5. Airbyte
-[![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
 - **Repository:** [airbytehq/airbyte](https://github.com/airbytehq/airbyte) 📦
 - **Stack:** Java, Python, TypeScript, Docker, Kubernetes 💻
 - **License:** ELv2 (Connector marketplace under MIT) 📜
@@ -106,7 +106,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** High-volume data synchronization and custom ELT integration catalogs 🔄.
 
 ### 6. Automatisch
-[![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
 - **Repository:** [automatisch/automatisch](https://github.com/automatisch/automatisch) 📦
 - **Stack:** JavaScript, Node.js, React, PostgreSQL 💻
 - **License:** AGPL-3.0 📜
@@ -114,7 +114,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** Privacy-regulated industries (HIPAA, GDPR) requiring on-premises integration catalogs 🔒.
 
 ### 7. Apache Camel
-[![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
 - **Repository:** [apache/camel](https://github.com/apache/camel) 📦
 - **Stack:** Java, Enterprise Integration Patterns (EIP) 💻
 - **License:** Apache-2.0 📜
@@ -122,7 +122,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** Large-scale enterprise messaging, mission-critical bus architectures, and hybrid cloud backbones 🏛️.
 
 ### 8. Panora
-[![GitHub stars](https://img.shields.io/github/stars/panoratech/Panora?style=social&color=white)](https://github.com/panoratech/Panora/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/panoratech/Panora?style=social&color=white)](https://github.com/panoratech/Panora/stargazers)
 - **Repository:** [panoratech/Panora](https://github.com/panoratech/Panora) 📦
 - **Stack:** TypeScript, Node.js, PostgreSQL, Redis, Docker 💻
 - **License:** AGPL-3.0 📜
@@ -130,7 +130,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** SaaS startups wanting an out-of-the-box embedded integration store and unified API for customer-facing integrations 🔌.
 
 ### 9. Cenit IO
-[![GitHub stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit)
+[![GitHub_Stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit)
 - **Repository:** [cenit-io/cenit](https://github.com/cenit-io/cenit) 📦
 - **Stack:** Ruby, MongoDB, Docker 💻
 - **License:** MIT License 📜
@@ -138,7 +138,7 @@ Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs,
 - **Best For:** Supply chain, logistics, and multi-protocol B2B data translation 🌐.
 
 ### 10. World Vibe Web (WVW)
-[![GitHub stars](https://img.shields.io/github/stars/onelifefyi/WorldVibeWeb?style=social&color=white)](https://github.com/onelifefyi/WorldVibeWeb/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/onelifefyi/WorldVibeWeb?style=social&color=white)](https://github.com/onelifefyi/WorldVibeWeb/stargazers)
 - **Repository:** [onelifefyi/WorldVibeWeb](https://github.com/onelifefyi/WorldVibeWeb) 📦
 - **Stack:** Tauri, Rust, Static Site 💻
 - **License:** MIT / Open Source 📜
@@ -221,3 +221,12 @@ If you found this list helpful, please consider supporting the project:
 ## 📄 License
 
 This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication 📜. Software and trademarks mentioned remain property of their respective owners.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-SaaS-Ecosystem-Integration-Marketplace_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-SaaS-Ecosystem-Integration-Marketplace_growth.svg">
+  </picture>
+</a>
