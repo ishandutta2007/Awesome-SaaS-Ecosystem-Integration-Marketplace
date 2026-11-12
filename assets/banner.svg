@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Node Glow Gradients -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="indigo-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="emerald-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="amber-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Animations -->
+    <style>
+      @keyframes flowDash {
+        0% { stroke-dashoffset: 120; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes floatSlow1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes floatSlow2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(7px); }
+      }
+      @keyframes pulseRing {
+        0%, 100% { opacity: 0.3; transform: scale(0.98); }
+        50% { opacity: 0.8; transform: scale(1.02); }
+      }
+      .flowing-wire-cyan {
+        stroke-dasharray: 8 14;
+        animation: flowDash 2.2s linear infinite;
+      }
+      .flowing-wire-indigo {
+        stroke-dasharray: 10 16;
+        animation: flowDash 3s linear infinite;
+      }
+      .flowing-wire-emerald {
+        stroke-dasharray: 6 12;
+        animation: flowDash 1.8s linear infinite;
+      }
+      .floating-node-1 {
+        animation: floatSlow1 4.5s ease-in-out infinite;
+      }
+      .floating-node-2 {
+        animation: floatSlow2 5.2s ease-in-out infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        fill: #ffffff;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        fill: #94a3b8;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+        fill: #38bdf8;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="340" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Marketplace Architecture Grid Mesh (Background) -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="85" x2="1200" y2="85"/>
+    <line x1="0" y1="170" x2="1200" y2="170"/>
+    <line x1="0" y1="255" x2="1200" y2="255"/>
+    <line x1="200" y1="0" x2="200" y2="340"/>
+    <line x1="400" y1="0" x2="400" y2="340"/>
+    <line x1="600" y1="0" x2="600" y2="340"/>
+    <line x1="800" y1="0" x2="800" y2="340"/>
+    <line x1="1000" y1="0" x2="1000" y2="340"/>
+  </g>
+
+  <!-- Dynamic Animated Ecosystem Connectors / Data Pipelines (Behind Central Text) -->
+  <g stroke-width="2.5" fill="none">
+    <!-- Pipeline 1: Cloud Core to Ecosystem -->
+    <path d="M 90 90 C 260 30, 360 310, 600 240 S 920 60, 1110 110" stroke="#38bdf8" stroke-opacity="0.2"/>
+    <path d="M 90 90 C 260 30, 360 310, 600 240 S 920 60, 1110 110" stroke="#38bdf8" stroke-opacity="0.8" class="flowing-wire-cyan"/>
+
+    <!-- Pipeline 2: CRM & Partner Mesh -->
+    <path d="M 110 250 C 280 310, 430 40, 680 90 S 960 290, 1090 230" stroke="#818cf8" stroke-opacity="0.2"/>
+    <path d="M 110 250 C 280 310, 430 40, 680 90 S 960 290, 1090 230" stroke="#818cf8" stroke-opacity="0.8" class="flowing-wire-indigo"/>
+
+    <!-- Pipeline 3: Low-code / Open Connector Flow -->
+    <path d="M 70 170 C 350 200, 420 120, 600 130 S 880 200, 1130 170" stroke="#34d399" stroke-opacity="0.15"/>
+    <path d="M 70 170 C 350 200, 420 120, 600 130 S 880 200, 1130 170" stroke="#34d399" stroke-opacity="0.7" class="flowing-wire-emerald"/>
+  </g>
+
+  <!-- DYNAMIC PERIPHERAL ECOSYSTEM NODES (Positioned safely on margins so title remains crystal clear) -->
+  
+  <!-- Left Top Node: AppExchange & Enterprise Marketplace Hub -->
+  <g class="floating-node-1" transform="translate(45, 60)">
+    <rect x="0" y="0" width="160" height="48" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" filter="url(#glow)"/>
+    <circle cx="24" cy="24" r="7" fill="#38bdf8"/>
+    <text x="40" y="22" font-family="sans-serif" font-size="11" fill="#e2e8f0" font-weight="700">App Directory</text>
+    <text x="40" y="36" font-family="sans-serif" font-size="9" fill="#94a3b8">SaaS Partner Stores</text>
+  </g>
+
+  <!-- Left Bottom Node: Embedded Catalog & Unified APIs -->
+  <g class="floating-node-2" transform="translate(55, 225)">
+    <rect x="0" y="0" width="165" height="48" rx="10" fill="#0f172a" stroke="#818cf8" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="7" fill="#818cf8"/>
+    <text x="40" y="22" font-family="sans-serif" font-size="11" fill="#e2e8f0" font-weight="700">Embedded Catalogs</text>
+    <text x="40" y="36" font-family="sans-serif" font-size="9" fill="#94a3b8">In-App Integrations</text>
+  </g>
+
+  <!-- Right Top Node: Cloud Marketplaces & Distribution -->
+  <g class="floating-node-2" transform="translate(985, 65)">
+    <rect x="0" y="0" width="165" height="48" rx="10" fill="#0f172a" stroke="#34d399" stroke-width="1.5" filter="url(#glow)"/>
+    <circle cx="24" cy="24" r="7" fill="#34d399"/>
+    <text x="40" y="22" font-family="sans-serif" font-size="11" fill="#e2e8f0" font-weight="700">Cloud Distribution</text>
+    <text x="40" y="36" font-family="sans-serif" font-size="9" fill="#94a3b8">Multi-Tenant iPaaS</text>
+  </g>
+
+  <!-- Right Bottom Node: Open Source & Extensibility -->
+  <g class="floating-node-1" transform="translate(975, 230)">
+    <rect x="0" y="0" width="175" height="48" rx="10" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="7" fill="#fbbf24"/>
+    <text x="40" y="22" font-family="sans-serif" font-size="11" fill="#e2e8f0" font-weight="700">Open-Source iPaaS</text>
+    <text x="40" y="36" font-family="sans-serif" font-size="9" fill="#94a3b8">Self-Hosted Ecosystems</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Guaranteed High Contrast & Unobscured -->
+  <g text-anchor="middle">
+    <!-- Category Pill Badge -->
+    <g transform="translate(600, 50)">
+      <rect x="-145" y="-14" width="290" height="28" rx="14" fill="#0b1329" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="0" y="4" class="badge-text">🌐 SAAS ECOSYSTEM &amp; INTEGRATIONS</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="145" class="title-text" font-size="40" letter-spacing="-0.5">SaaS Ecosystem &amp; Integration Marketplace</text>
+
+    <!-- Subtitle -->
+    <text x="600" y="195" class="subtitle-text" font-size="16">
+      Curated Catalog of Commercial App Stores, Embedded iPaaS &amp; Open-Source Marketplaces
+    </text>
+
+    <!-- Tech & Capability Badges -->
+    <g transform="translate(600, 260)">
+      <!-- Pill 1: AppExchange -->
+      <rect x="-310" y="-13" width="110" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="-255" y="4" font-family="sans-serif" font-size="11" fill="#cbd5e1" font-weight="600">AppExchange</text>
+
+      <!-- Pill 2: Atlassian -->
+      <rect x="-190" y="-13" width="95" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="-142.5" y="4" font-family="sans-serif" font-size="11" fill="#cbd5e1" font-weight="600">Atlassian</text>
+
+      <!-- Pill 3: HubSpot -->
+      <rect x="-85" y="-13" width="85" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="-42.5" y="4" font-family="sans-serif" font-size="11" fill="#cbd5e1" font-weight="600">HubSpot</text>
+
+      <!-- Pill 4: AWS Marketplace -->
+      <rect x="10" y="-13" width="130" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="75" y="4" font-family="sans-serif" font-size="11" fill="#cbd5e1" font-weight="600">AWS Marketplace</text>
+
+      <!-- Pill 5: Open-Source -->
+      <rect x="150" y="-13" width="160" height="26" rx="6" fill="#1e293b" stroke="#334155"/>
+      <text x="230" y="4" font-family="sans-serif" font-size="11" fill="#38bdf8" font-weight="600">Open-Source iPaaS</text>
+    </g>
+  </g>
+</svg>

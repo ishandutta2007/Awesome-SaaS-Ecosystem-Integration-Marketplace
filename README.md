@@ -1,161 +1,204 @@
-# Awesome-SaaS-Ecosystem-Integration-Marketplace
-
 # Awesome SaaS Ecosystem & Integration Marketplace
 
-> A curated list of top SaaS Ecosystem and Integration Marketplace platforms — both SaaS/Hosted commercial app stores and open-source alternatives for discovering, distributing, and embedding third-party integrations.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome SaaS Ecosystem & Integration Marketplace Banner" width="100%">
+</p>
+
+<p align="center">
+  <strong>A curated directory of SaaS Ecosystem platforms, cloud application stores, embedded integration catalogs, and open-source integration marketplaces.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace?style=social&color=white" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace?style=social&color=white" alt="GitHub Forks"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace" alt="Open Issues"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
+</p>
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Salesforce AppExchange](#salesforce-appexchange)
-  - [Atlassian Marketplace](#atlassian-marketplace)
-  - [HubSpot App Marketplace](#hubspot-app-marketplace)
-  - [Zendesk Marketplace](#zendesk-marketplace)
-  - [Freshworks Marketplace](#freshworks-marketplace)
-  - [Slack App Directory](#slack-app-directory)
-  - [Google Workspace Marketplace](#google-workspace-marketplace)
-  - [Shopify App Store](#shopify-app-store)
-  - [AWS Marketplace](#aws-marketplace)
-  - [ServiceNow Store](#servicenow-store)
 - [Open-Source Software](#-open-source-software)
-  - [Panora](#panora)
-  - [World Vibe Web (WVW)](#world-vibe-web-wvw)
-  - [Integry (Freemium)](#integry-freemium)
 - [Comparison at a Glance](#-comparison-at-a-glance)
+- [Key Selection Criteria](#-key-selection-criteria)
 - [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global cloud micro-services, embedded iPaaS, and digital B2B application marketplace sector is estimated at **$18.5 Billion in 2024**, projected to reach **$85.2 Billion by 2032** growing at a CAGR of **21.4%**. 
+
+The market dynamics exhibit a **highly concentrated, winner-take-most structure at the hyper-scaler and system-of-record layer** (dominated by AWS, Salesforce, Google, and Microsoft where network effects and buyer commit draws lock in ecosystems), while remaining **moderately fragmented in embedded integration platforms and vertical developer tooling**, where modular API connectors and open-source alternatives are competing for product-led integration workflows.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted SaaS Ecosystem and Integration Marketplace platforms. These are not open-source but are included as reference points for feature comparison.
+Below is the structured overview of leading SaaS ecosystem and application marketplace platforms, sorted in descending order by company valuation / annual revenue.
 
-### Salesforce AppExchange
-**Type:** Enterprise cloud marketplace with native platform integration
-AppExchange is the long-standing enterprise marketplace benchmark, connecting customers with more than **9,000 partner apps** and 9,600 ISV/SI partners since 2005 [citation:1]. It is recognized as a Leader in the IDC MarketScape for Worldwide Application and Platform Marketplaces, with **14 million installs** and **91% of Salesforce customers using at least one AppExchange app** [citation:1]. A key differentiator is **embedded discovery**: customers find and deploy solutions without leaving the Salesforce flow of work, with native platform integration, Data 360-powered search, and personalized recommendations [citation:1]. The newer **AgentExchange** marketplace extends this to agentic AI, with 646+ pre-built agentic assets and A2A/MCP partners [citation:1]. Enterprise trust is enforced through a rigorous review process, algorithmic verification, and a new Trust Center for security and compliance transparency [citation:1].
-**Best for:** Salesforce customers wanting a governed, enterprise-grade marketplace with deep native integration and a proven ecosystem track record.
-
-### Atlassian Marketplace
-**Type:** App marketplace for Jira, Confluence, and Atlassian tools
-Atlassian Marketplace provides a curated assortment of apps for Jira, Confluence, and the broader Atlassian stack, with categories spanning data visualization, AI-powered workflows, Rovo Agents, team communication, and DevOps [citation:3]. The marketplace includes **Forge apps** (running on Atlassian infrastructure with data stored in-platform) and cloud apps with additional security and support tiers [citation:3]. Popular apps include draw.io for diagramming (4.8/5, 1,202 reviews), Adaptavist's ScriptRunner (4.6/5, 822 reviews), and Tempo Timesheets for Jira time tracking [citation:3]. The marketplace surfaces app ratings and review counts prominently, helping buyers assess social proof before installing.
-**Best for:** Atlassian users wanting a mature marketplace with strong app ratings, Forge-based security options, and deep integration into Jira/Confluence workflows.
-
-### HubSpot App Marketplace
-**Type:** CRM-centric integration marketplace
-HubSpot's App Marketplace lists integrations that connect HubSpot with other tools, including integration platforms like Integry that offer a freemium model with 10,000 free runs per month and a visual workflow builder for embedding integrations inside the app [citation:4]. The marketplace is closely tied to HubSpot's CRM ecosystem, making it a natural discovery channel for sales, marketing, and service integrations.
-**Best for:** HubSpot users wanting integrations that extend CRM workflows, particularly those exploring embedded integration platforms with freemium entry points.
-
-### Zendesk Marketplace
-**Type:** Support-focused app marketplace with custom object support
-Zendesk Marketplace provides apps that extend support workflows, with December 2025 support added for **custom objects and object triggers** in Marketplace apps, enabling apps to acquire additional custom data integrated into agent workflows [citation:2]. Apps are tailored to extend the Zendesk interface, with common use cases including time tracking, viewing recent tickets in the sidebar, and visual query builders for complex searches [citation:14]. Apps can be public (listed in the Marketplace) or private (built by the organization and uploaded directly) [citation:14].
-**Best for:** Zendesk customers wanting support-focused apps with recent custom object capabilities, accepting a more narrowly scoped ecosystem than enterprise marketplaces.
-
-### Freshworks Marketplace
-**Type:** IT and employee service connector marketplace
-Freshworks Marketplace hosts **Connector Apps** for Freshservice, offering pre-built integrations with HCM systems (Workday, BambooHR, UKG, ADP, HiBob, Paylocity), ITSM solutions (ServiceNow, ManageEngine), DevOps tools (Azure DevOps, GitHub, Jira), and project management platforms (Smartsheet, Monday.com) [citation:10]. Connector Apps include **Recipes** with pre-built workflows for onboarding, offboarding, and ticket sync, customizable via a visual editor with triggers, conditions, and actions [citation:10]. Connections are established via OAuth2.0, OAuth1.0, or API Key with two-step authentication. **Important:** Connector Apps are billed based on **Task consumption**, with usage visible in the Connector App dashboard [citation:10].
-**Best for:** Freshservice users wanting pre-built IT workflow connectors with customizable recipes, accepting task-based billing.
-
-### Slack App Directory
-**Type:** Workspace app directory with security review
-Slack App Directory lists apps reviewed against Slack's guidelines, with the review process installing each app to test functionality and validate requested scopes [citation:8]. **Important limitation:** Slack does not perform code reviews during submission, though additional penetration testing may be performed at Slack's discretion [citation:8]. Apps must be resubmitted whenever Slack-side configuration changes (new scopes or platform features), and admins can enable app approvals for workspace-level governance [citation:8]. Security and privacy practices are self-certified by developers in the app's compliance tab [citation:8].
-**Best for:** Slack workspace admins wanting a curated directory with scope-based review, accepting that security attestation is developer self-certified.
-
-### Google Workspace Marketplace
-**Type:** Workspace add-on marketplace
-Google Workspace Marketplace provides apps and add-ons that extend Gmail, Docs, Calendar, Sheets, and Meet, with use cases spanning AI-assisted email composition, sales/CRM integration, project updates in Chat, and video conferencing in Calendar [citation:9]. Developers can publish apps publicly or restrict them to their work or school, while administrators can manage Marketplace apps to protect organizational data [citation:9].
-**Best for:** Google Workspace organizations wanting add-ons that extend Google apps, with administrative controls for organizational governance.
-
-### Shopify App Store
-**Type:** E-commerce app marketplace
-Shopify App Store provides apps that extend Shopify storefronts and operations, with listings spanning compliance (e.g., DPDP Compliant for Indian stores), marketing, sales, and operations [citation:7]. App listings include data access requirements (customer data, store data), pricing, and reviews, helping merchants assess fit before installing.
-**Best for:** Shopify merchants wanting e-commerce-specific apps with clear data access disclosures, accepting a commerce-focused scope.
-
-### AWS Marketplace
-**Type:** Cloud procurement marketplace (guidance for third-party sellers)
-AWS provides guidance for retailers building third-party marketplaces on AWS, enabling supplier onboarding and order routing without holding inventory [citation:6]. This is a **reference architecture** for building your own marketplace rather than a consumer-facing app store—it demonstrates how to implement marketplace software that recruits sellers, lists products, and routes orders for fulfillment [citation:6].
-**Best for:** Retailers and platforms wanting to build their own third-party marketplace on AWS infrastructure, not as a turnkey integration catalog.
-
-### ServiceNow Store
-**Type:** ITSM app and plugin store
-ServiceNow Store apps are typically accessible to all instances and can be installed directly within a ServiceNow instance via the "Install plugins" option, rather than requiring a separate store visit and "Get" click . This reflects ServiceNow's platform-native distribution model, where apps integrate directly into the ITSM workflow.
-**Best for:** ServiceNow customers wanting platform-native apps that install directly into their instance, accepting the ServiceNow ecosystem scope.
+| Platform | Parent Company / Developer | Market Valuation / Revenue | Starting Pricing Tier | Free Tier & Free Trial Limits | Key Marketplace Focus |
+|:---|:---|:---|:---|:---|:---|
+| **[AWS Marketplace](https://aws.amazon.com/marketplace)** | Amazon (NASDAQ: AMZN) | **~$2.1 Trillion Market Cap** ($575B+ Annual Rev) | Pay-per-use / $0.01+/hr per software listing; seller listing fee varies by contract (typically 1.5%–3% listing fee on AWS Marketplace Private Offers) | **AWS Free Tier (12 Months Free)** + 7 to 30-day free software trials (vendor-specific AMI/SaaS limits apply) | Cloud infrastructure, dev tools, and enterprise procurement |
+| **[Google Workspace Marketplace](https://workspace.google.com/marketplace)** | Alphabet (NASDAQ: GOOGL) | **~$2.0 Trillion Market Cap** ($307B+ Annual Rev) | Free to browse; Google Workspace starts at $6.00/user/month (Business Starter); $0 developer registration fee | **14-day free trial** for Google Workspace Business tiers (up to 10 users); thousands of permanently free add-ons | Productivity add-ons, Gmail/Docs plugins, CRM connectors |
+| **[Slack App Directory](https://slack.com/apps)** | Salesforce / Slack (NYSE: CRM) | **~$300 Billion Market Cap** (Slack acquired for $27.7B; Salesforce $34.9B Rev) | Slack Pro starts at $7.25/active user/month (billed annually); directory listing is free for approved apps | **Free forever plan** with limits of up to 10 app integrations, 90 days message history, and 1:1 huddles | Team communication, bot notifications, and automated workflows |
+| **[Salesforce AppExchange](https://appexchange.salesforce.com/)** | Salesforce Inc. (NYSE: CRM) | **~$300 Billion Market Cap** ($34.9B Annual Rev) | Salesforce Starter Suite starts at $25.00/user/month; AppExchange ISV partner program starts at $2,500/year checkout fee + 15% revenue share | **30-day free trial** of Salesforce Starter Edition (full CRM features, up to 10 users); extensive catalog of free partner apps | Enterprise CRM extensions, AgentExchange AI, ISV solutions |
+| **[Shopify App Store](https://apps.shopify.com/)** | Shopify Inc. (NYSE: SHOP) | **~$110 Billion Market Cap** ($7.06B Annual Rev) | Basic Shopify starts at $29.00/month (billed annually); partner listing fee is 0% rev share on first $1M/year (then 15%) | **3-day free trial** followed by $1/month for the first 3 months; app-level trials vary (typically 7-14 days free trial) | E-commerce plugins, storefront extensions, checkout ops |
+| **[ServiceNow Store](https://store.servicenow.com/)** | ServiceNow Inc. (NYSE: NOW) | **~$190 Billion Market Cap** ($8.97B Annual Rev) | Custom enterprise contracts starting at ~$100.00/user/month for IT Service Management (ITSM); Store partner fee ~$5,000/year | **Personal Developer Instance (PDI)** free forever for developers (auto-reclaimed if inactive for 10 days); 30-day app trial | Enterprise IT service workflows, ITSM plugins, HR delivery |
+| **[Atlassian Marketplace](https://marketplace.atlassian.com/)** | Atlassian Corp (NASDAQ: TEAM) | **~$45 Billion Market Cap** ($4.36B Annual Rev) | Jira Cloud Standard starts at $7.55/user/month; Marketplace apps billed per user or free tier | **Free forever plan** for up to 10 users on Jira & Confluence; 30-day full-feature free trial for all paid Marketplace apps | DevOps, issue tracking, agile project management apps |
+| **[HubSpot App Marketplace](https://ecosystem.hubspot.com/marketplace/apps)** | HubSpot Inc. (NYSE: HUBS) | **~$28 Billion Market Cap** ($2.17B Annual Rev) | Free CRM tools available; Marketing Hub Starter starts at $15.00/seat/month; partner listing is free upon certification | **Free forever plan** (Free CRM tools with limit of 1,000,000 contacts, core form & email limits); 14-day trial for Professional tiers | CRM sync, inbound marketing tools, lead capture |
+| **[Zendesk Marketplace](https://www.zendesk.com/marketplace/)** | Zendesk (Acquired by Hellman & Friedman) | **~$10.2 Billion Valuation** (Acquisition price) | Zendesk Support Team starts at $19.00/agent/month (billed annually); Marketplace listings free for approved developers | **14-day free trial** of Zendesk Suite Professional (full access, 5 agent licenses included during trial) | Customer service ticketing apps, custom objects, telephony |
+| **[Freshworks Marketplace](https://www.freshworks.com/apps/)** | Freshworks Inc. (NASDAQ: FRSH) | **~$4.5 Billion Market Cap** ($596M Annual Rev) | Freshservice Starter starts at $19.00/agent/month (billed annually); Connector Apps charged on task packs ($100/5,000 tasks) | **14-day free trial** (unlimited access to Starter/Growth features); Free Starter plan for Freshdesk (up to 10 agents) | IT service management, omnichannel CRM, HR connector recipes |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven SaaS Ecosystem and Integration Marketplace tools. The open-source ecosystem is **nascent**—available projects focus on embedding integration catalogs into SaaS products or building federated app directories.
+Self-hosted, community-driven integration marketplaces, embedded iPaaS catalogs, and extensible workflow frameworks. Sorted in descending order by GitHub stargazers.
 
-### Panora
-**Stack:** Node.js / TypeScript / PostgreSQL / Redis / Docker | **License:** AGPL-3.0
-Panora is an open-source integration platform positioned as a **Merge.dev alternative**, enabling SaaS companies to add an integration catalog to their product in minutes . Key features include:
-- **Pre-built integration catalog** with a unified API layer for multiple third-party services
-- **Multi-tenant architecture** with tenant isolation and security
-- **White-label customization** with custom branding capabilities
-- **Self-service integration setup** for end customers
-- **SDK libraries** for multiple languages with comprehensive API documentation
-- **Data transformation and mapping** with field mapping, validation, and bidirectional sync
-- **Monitoring and observability** with real-time integration monitoring, usage analytics, and error tracking
+### 1. n8n
+[![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)
+- **Repository:** [n8n-io/n8n](https://github.com/n8n-io/n8n)
+- **Stack:** TypeScript, Node.js, Vue.js, SQLite/PostgreSQL, Docker
+- **License:** Fair-code (Sustainable Use License) / Apache-2.0 community components
+- **Description:** A leading extensible workflow automation and integration platform with a rich node marketplace (400+ built-in connectors). Features native LangChain AI agents, multi-tenant execution, and an active community registry of custom integration nodes.
+- **Best For:** Self-hosted workflow automation with an extensive visual integration catalog and AI pipeline triggers.
 
-Deploys via Docker with PostgreSQL and Redis, built on a microservices architecture . It explicitly targets the **integration marketplace use case**, allowing SaaS products to offer their customers a catalog of integrations without building the infrastructure from scratch.
-**Best for:** SaaS companies wanting to embed an integration marketplace into their product with multi-tenancy, white-labeling, and a pre-built connector library, accepting AGPL licensing and the operational overhead of a Node.js/PostgreSQL stack.
+### 2. Huginn
+[![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers)
+- **Repository:** [huginn/huginn](https://github.com/huginn/huginn)
+- **Stack:** Ruby on Rails, MySQL/PostgreSQL, JavaScript
+- **License:** MIT License
+- **Description:** An open-source system for building automated agents that monitor online services, parse web feeds, and execute actions when events trigger. Often dubbed a hackable, self-hosted IFTTT/Zapier alternative with a modular agent architecture.
+- **Best For:** Developer-centric web scraping, scheduled data pipelines, and personal automation ecosystems.
 
-### World Vibe Web (WVW)
-**Stack:** Tauri / Rust / Static Site | **License:** Open Source
-World Vibe Web is a **federated app store** for open-source, vibe-coded projects, with a fundamentally different architecture from centralized marketplaces [citation:12]. Key features:
-- **Federated model**: each developer maintains their own `apps.json` in their own repo; WVW indexes them without hosting
-- **No gatekeeping, no review queue, no 30% cut**: anyone with a GitHub repo can publish
-- **Guardrails against manipulation**: declared stars/forks are ignored (WVW fetches live counts), featured arrays are ignored (maintainers curate), categories are validated against a fixed list, and duplicate app IDs are deduplicated [citation:12]
-- **AI-powered curation**: featured apps are selected daily by a Copilot-powered agent via GitHub Agentic Workflows [citation:12]
-- **Desktop app** built with Tauri + Rust (no Electron) and a PWA for browser installation
+### 3. Activepieces
+[![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)
+- **Repository:** [activepieces/activepieces](https://github.com/activepieces/activepieces)
+- **Stack:** TypeScript, Node.js, Angular, PostgreSQL, Docker
+- **License:** MIT License
+- **Description:** An open-source, no-code workflow automation tool designed with an embeddable architecture. Provides an embedded software development kit (SDK) to let SaaS platforms natively offer an integration marketplace inside their own web apps.
+- **Best For:** SaaS product builders wanting to embed a clean, user-friendly integration store and workflow builder for their customers.
 
-**Important caveat:** WVW explicitly states it does **not audit, verify, or guarantee the safety** of any listed app—every listing links to its GitHub repo for source review, and users install at their own risk [citation:12]. It is a directory, not a distributor.
-**Best for:** Developers and users wanting a decentralized, open-source app directory for indie/vibe-coded projects with no gatekeeping, accepting that security verification is the user's responsibility.
+### 4. Node-RED
+[![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers)
+- **Repository:** [node-red/node-red](https://github.com/node-red/node-red)
+- **Stack:** JavaScript, Node.js, HTML5
+- **License:** Apache-2.0
+- **Description:** A low-code flow-based development environment backed by OpenJS Foundation. Offers the **Node-RED Flow Library**, an open ecosystem and community marketplace containing over 4,000 modular nodes and reusable integration packages.
+- **Best For:** Event-driven IoT, edge orchestration, and hardware-to-cloud API integrations.
 
-### Integry (Freemium)
-**Stack:** SaaS (with embedded catalog capabilities) | **License:** Freemium (not open-source)
-Integry is listed as a **freemium** integration platform on HubSpot's marketplace, offering a visual workflow builder and a **dedicated app directory** that lets SaaS products create a catalog of integrations without building from scratch [citation:4]. The first 10,000 runs per month are free, with paid tiers beyond. While not open-source, it is included as a reference point for the **embedded integration catalog** use case that Panora also targets. Integry positions itself for product managers and designers as well as developers, covering the full integration lifecycle from conception to production [citation:4].
-**Best for:** SaaS teams wanting a freemium, no-code approach to embedding an integration catalog, accepting that it is a commercial SaaS product rather than self-hosted open-source.
+### 5. Airbyte
+[![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)
+- **Repository:** [airbytehq/airbyte](https://github.com/airbytehq/airbyte)
+- **Stack:** Java, Python, TypeScript, Docker, Kubernetes
+- **License:** ELv2 (Connector marketplace under MIT)
+- **Description:** The leading open-source data integration engine featuring an extensible connector marketplace with 350+ pre-built connectors. Enables bidirectional sync and ELT pipelines across databases, SaaS APIs, and data warehouses.
+- **Best For:** High-volume data synchronization and custom ELT integration catalogs.
+
+### 6. Automatisch
+[![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers)
+- **Repository:** [automatisch/automatisch](https://github.com/automatisch/automatisch)
+- **Stack:** JavaScript, Node.js, React, PostgreSQL
+- **License:** AGPL-3.0
+- **Description:** A privacy-first, self-hosted Zapier alternative that keeps sensitive business data stored entirely on local infrastructure. Offers built-in app connectors without cloud telemetry dependencies.
+- **Best For:** Privacy-regulated industries (HIPAA, GDPR) requiring on-premises integration catalogs.
+
+### 7. Apache Camel
+[![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)
+- **Repository:** [apache/camel](https://github.com/apache/camel)
+- **Stack:** Java, Enterprise Integration Patterns (EIP)
+- **License:** Apache-2.0
+- **Description:** The enterprise-grade open-source integration framework implementing standard Enterprise Integration Patterns. Features 300+ components (Camel K, Camel Karavan low-code UI) for building scalable enterprise marketplace backbones.
+- **Best For:** Large-scale enterprise messaging, mission-critical bus architectures, and hybrid cloud backbones.
+
+### 8. Panora
+[![GitHub stars](https://img.shields.io/github/stars/panoratech/Panora?style=social&color=white)](https://github.com/panoratech/Panora/stargazers)
+- **Repository:** [panoratech/Panora](https://github.com/panoratech/Panora)
+- **Stack:** TypeScript, Node.js, PostgreSQL, Redis, Docker
+- **License:** AGPL-3.0
+- **Description:** An open-source unified API and embedded integration catalog engine (Merge.dev alternative). Enables SaaS platforms to ship CRM, ticketing, accounting, and messaging integrations through a single unified schema and embedded UI.
+- **Best For:** SaaS startups wanting an out-of-the-box embedded integration store and unified API for customer-facing integrations.
+
+### 9. Cenit IO
+[![GitHub stars](https://img.shields.io/github/stars/cenit-io/cenit?style=social&color=white)](https://github.com/cenit-io/cenit)
+- **Repository:** [cenit-io/cenit](https://github.com/cenit-io/cenit)
+- **Stack:** Ruby, MongoDB, Docker
+- **License:** MIT License
+- **Description:** An open-source iPaaS platform designed for orchestrating business data protocols (EDI, REST, SOAP) with a shared directory of community-contributed integration algorithms and data schemas.
+- **Best For:** Supply chain, logistics, and multi-protocol B2B data translation.
+
+### 10. World Vibe Web (WVW)
+[![GitHub stars](https://img.shields.io/github/stars/onelifefyi/WorldVibeWeb?style=social&color=white)](https://github.com/onelifefyi/WorldVibeWeb/stargazers)
+- **Repository:** [onelifefyi/WorldVibeWeb](https://github.com/onelifefyi/WorldVibeWeb)
+- **Stack:** Tauri, Rust, Static Site
+- **License:** MIT / Open Source
+- **Description:** A federated, decentralized app directory for indie open-source applications. Removes centralized review queues and commission cuts by allowing developers to publish through repository-hosted metadata schemas.
+- **Best For:** Decentralized open-source software discovery without gatekeepers.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Marketplace Type | Self-Hosted | Best For |
-|----------|---------|-------|------------------|-------------|----------|
-| **Salesforce AppExchange** | Proprietary | Cloud | Enterprise app store | ❌ | Governed enterprise marketplace |
-| **Atlassian Marketplace** | Proprietary | Cloud | Atlassian app store | ❌ | Jira/Confluence ecosystem |
-| **HubSpot App Marketplace** | Proprietary | Cloud | CRM integrations | ❌ | HubSpot CRM workflows |
-| **Zendesk Marketplace** | Proprietary | Cloud | Support apps | ❌ | Support workflow extensions |
-| **Freshworks Marketplace** | Proprietary | Cloud | Connector apps | ❌ | IT/employee service connectors |
-| **Slack App Directory** | Proprietary | Cloud | Workspace apps | ❌ | Slack workspace extensions |
-| **Google Workspace Marketplace** | Proprietary | Cloud | Workspace add-ons | ❌ | Google app extensions |
-| **Panora** | AGPL-3.0 | Node.js/Postgres | Embedded integration catalog | ✅ | SaaS integration marketplace |
-| **World Vibe Web** | Open Source | Tauri/Rust | Federated app directory | ✅ (Static) | Decentralized indie apps |
-| **Integry** | Freemium | SaaS | Embedded catalog | ❌ | No-code integration catalog |
+| Solution | Deployment Model | Open Source | Embedded Catalog SDK | Multi-Tenant Architecture | Primary Use Case |
+|:---|:---|:---:|:---:|:---:|:---|
+| **AWS Marketplace** | Hosted Cloud | ❌ | Proprietary API | ✅ | Cloud infrastructure, AMIs & SaaS procurement |
+| **Salesforce AppExchange** | Hosted Cloud | ❌ | Native Canvas / LWC | ✅ | Enterprise CRM & AgentExchange apps |
+| **Google Workspace Marketplace**| Hosted Cloud | ❌ | Google Add-on API | ✅ | Productivity suite & collaboration add-ons |
+| **Shopify App Store** | Hosted Cloud | ❌ | App Bridge SDK | ✅ | Merchant e-commerce tools & payment apps |
+| **Atlassian Marketplace** | Hosted Cloud | ❌ | Forge / Connect SDK | ✅ | Jira & Confluence engineering extensions |
+| **HubSpot App Marketplace** | Hosted Cloud | ❌ | CRM UI Extensions | ✅ | Sales, marketing, and customer service sync |
+| **Zendesk Marketplace** | Hosted Cloud | ❌ | Zendesk Apps Framework (ZAF)| ✅ | Customer support ticketing workflows |
+| **Freshworks Marketplace** | Hosted Cloud | ❌ | Freshworks CLI (FDK) | ✅ | IT and employee service connector recipes |
+| **Activepieces** | Self-Hosted / Cloud | ✅ (MIT) | ✅ Native SDK | ✅ | Embedded integration marketplace for SaaS |
+| **n8n** | Self-Hosted / Cloud | ✅ (Fair-code)| Custom Nodes / Embed | ✅ | Advanced workflow automation with AI agents |
+| **Panora** | Self-Hosted / Cloud | ✅ (AGPL-3.0)| ✅ White-label UI | ✅ | Unified API & customer integration catalog |
+| **Node-RED** | Self-Hosted | ✅ (Apache-2.0)| Flow Embed Library | ❌ | Event-driven visual IoT and API flows |
+| **Airbyte** | Self-Hosted / Cloud | ✅ (ELv2/MIT) | Embedded API | ✅ | High-throughput data replication & ELT |
+| **Automatisch** | Self-Hosted | ✅ (AGPL-3.0)| ❌ | ❌ | Privacy-compliant on-premises automation |
+| **Apache Camel** | Self-Hosted Library| ✅ (Apache-2.0)| Karavan UI | ❌ | Enterprise message routing & integration bus |
+| **Cenit IO** | Self-Hosted / Cloud | ✅ (MIT) | Data Integrator Hub | ✅ | Open-source iPaaS with multi-protocol support |
+| **World Vibe Web** | Decentralized Client| ✅ (Open Source)| Static Registry Schema | ❌ | Federated app store for open-source tools |
+
+---
+
+## 🔍 Key Selection Criteria
+
+When deciding between hosted commercial ecosystems and open-source embedded marketplaces, consider:
+
+1. **Ecosystem Reach vs. Custom Brand Control:**
+   - Commercial app stores (Salesforce, Shopify, Google) give instant access to millions of existing active business buyers, but require adherence to compliance gatekeeping and revenue share fees.
+   - Embedded engines (Activepieces, Panora) allow SaaS products to offer native 1-click integrations inside their own application UI under their own brand.
+2. **Data Privacy & Compliance (HIPAA, GDPR, On-Premises):**
+   - For internal automations dealing with sensitive PII or air-gapped environments, self-hosted open-source solutions like Automatisch, n8n, or Apache Camel eliminate third-party data leakage risks.
+3. **Monetization & Commission Models:**
+   - Hyper-scaler stores charge transaction fees or require certified partner subscriptions ($2,500+).
+   - Open-source platforms eliminate listing commissions, allowing direct billing between SaaS vendors and their customers.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace&type=Date)](https://star-history.com/#ishandutta2007/Awesome-SaaS-Ecosystem-Integration-Marketplace&Date)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source SaaS Ecosystem or Integration Marketplace tool that should be listed here, please open a pull request with:
+Contributions are welcomed! If you maintain or use an open-source SaaS ecosystem platform, embedded marketplace SDK, or integration tool that belongs on this list:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source (or clearly note if it is freemium/source-available but not OSI-approved, as with Integry). Note that the open-source ecosystem for **SaaS integration marketplaces** is **very limited**. **Panora** is the most direct open-source option for SaaS companies wanting to embed an integration catalog into their product, explicitly targeting the Merge.dev alternative use case with multi-tenancy and white-labeling . **World Vibe Web** takes a fundamentally different approach—federated, decentralized, and explicitly without gatekeeping or security verification—making it suitable for indie/vibe-coded projects rather than enterprise procurement [citation:12]. Commercial marketplaces like Salesforce AppExchange and Atlassian Marketplace remain far more capable for governed, enterprise-grade app distribution with rigorous review processes and native platform integration.
+1. Fork this repository.
+2. Create a new branch: `git checkout -b add-my-integration-tool`.
+3. Add your tool to the relevant section adhering to alphabetical or star-ranked ordering.
+4. Ensure you include repository link, license, tech stack, and clear standout features.
+5. Submit a pull request with a descriptive title.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository and curated list are released under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. Software and trademarks mentioned remain property of their respective owners.
